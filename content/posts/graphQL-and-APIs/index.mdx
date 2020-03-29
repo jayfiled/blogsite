@@ -1,0 +1,41 @@
+---
+title: "Converting SOAP or REST-based APIs to be able to support GraphQL"
+date: 2020-03-30
+slug: "/graphQL-and-APIs"
+---
+
+![Header graphQL image](./GraphQLicon.jpg)
+
+I've recently started a new job as an Analyst Developer and suddenly, I was in the position to support many APIs.  There were SOAP and REST-based APIs.
+
+So many questions:
+
+- Why SOAP?
+- Why did we move to REST for some?
+- Why aren't we converting the SOAP to REST?
+- Isn't graphQL a thing now?
+
+In helping our third-party suppliers with their API questions, I found out the difference between them.
+
+> SOAP - You can send an XML object to an endpoint that has some arguments about what you want.  I.e. date, api key, token, touring country, currency.
+
+> REST - You do the same, but instead of XML, you use a JSON object
+
+Anyway, I wanted to make them graphQL ready.  How? 
+
+- Use the simplest API endpoint as a reference.
+- Find out more on how they work (use the endpoints in a simple app)
+- Find out the coding differences between the two. (Download the code ⏩ run up locally ⏩ find some (small) bugs or features in the backlog that is waiting for a dev to complete)
+- Find out some DB info (which DB, connection info, where they getting info from (stored procs, functions, views))
+- Map out the data visually
+
+GraphQL queries the application, so find out how to do this on a .Net application
+
+- [ ] - Find out which version of .Net we used
+
+Next steps?
+
+- [ ] - do a graphQL tutorial to spark some questions 🔥
+
+
+
