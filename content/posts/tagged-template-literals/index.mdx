@@ -1,0 +1,24 @@
+---
+title: "Tagged template literals explained"
+date: 2020-04-02
+slug: "/tagged-template-literals"
+---
+
+![Header graphQL image](./JS-Banner-TTL.png)
+
+# tagged-template-literals
+
+I came across this subject today and hadn't heard of it before.
+
+```js {7}
+function highlight() {
+    // do something
+}
+
+const name = 'Snickers';
+const age = '100';
+const sentence = highlight`My dog's name is ${name} and he is ${age} years old`;
+console.log(sentence)
+```
+
+
